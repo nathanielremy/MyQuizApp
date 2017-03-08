@@ -7,8 +7,21 @@
 //
 
 import UIKit
+import GameKit 
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var posedQuestion: UILabel!
+    @IBOutlet weak var answerResponse: UILabel!
+    @IBOutlet weak var answer1: UIButton!
+    @IBOutlet weak var answer2: UIButton!
+    @IBOutlet weak var answer3: UIButton!
+    @IBOutlet weak var answer4: UIButton!
+    @IBOutlet weak var nextQuestion: UIButton!
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
